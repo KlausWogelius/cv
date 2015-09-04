@@ -1,0 +1,65 @@
+\documentclass[10pt,twoside,a4paper]{curve} %typesetting "curve" på a4-ark - skriftstørrelse 10
+\usepackage[margin=1.5cm]{geometry} %lav 1,5cm margen hele vejen rundt
+\usepackage[utf8x]{inputenc}
+\usepackage[danish]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{paralist} %udvidede funktioner til lister
+\usepackage[numbers]{natbib} %lav kildehenvisninger
+\renewcommand\bibsection{\section*{Bilag:}}	%lav overskriften om fra "Litteratur" til "Henvisninger"
+
+\leftheader{
+\textbf{Adresse:} \\
+Qiterlia 1b/ 004; Postbox 1602 \\
+3905 Nuussuaq \\
+Grønland \\
+}
+\rightheader{
+\textbf{Telefon og e-mail:}\\
++299 542785 (mobil) \\
++299 341512 (arbejde) \\
+kw@tele.gl\\
+}
+\photo[l]{cv-billede.jpg}
+\photoscale{.15}
+\title{CV for Klaus Wogelius}
+\subtitle{Projektingeniør}
+%\titlealignment{l}
+\author{Klaus Wogelius}
+
+\begin{document}
+\makeheaders 
+\maketitle
+\rubricalignment{cl}
+%\subrubricalignment{cl}
+%\keyalignment{r}
+\makerubric{udd}
+\makerubric{kvali}
+\makerubric{sprog}
+\makerubric{person}
+\pagebreak
+\makerubric{opgaver}
+\makerubric{karriere}
+\pagebreak
+\makerubric{kurser}
+\vfill %placer efterfølgende tekst nederst på siden
+\textbf{\textit{Hvis punkter i CV'et ønskes nærmere belyst eller dokumenteret}}
+\footnote{
+f.eks. ved fremsendelse af:
+\begin{itemize}
+\item eksamens- eller kursusbeviser
+\item eksempler på udarbejdede 
+\begin{itemize}
+\item tekniske redegørelser eller analyser,
+\item udbudsmateriale,
+\item afleveringsforretninger
+\item system-design el. lign.
+\end{itemize}
+\item yderligere personlige oplysninger, personprofil, straffeattest
+\end{itemize}
+}\textbf{\textit{, eller hvis på anden måde spørgsmål opstår, er du meget velkommen til at kontakte mig pr. telefon, SMS eller E-mail. Mine kontaktoplysninger står øverst til højre på forsiden af denne CV.}}
+\vspace{10mm}
+%\bibliography{../bibliotek}
+%\bibliographystyle{unsrtnat}
+\end{document}
